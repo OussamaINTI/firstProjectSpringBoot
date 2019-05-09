@@ -12,9 +12,11 @@ import javax.persistence.Id;
 import javax.persistence.JoinTable;
 import javax.persistence.Lob;
 import javax.persistence.ManyToMany;
+import javax.persistence.Table;
 import javax.persistence.JoinColumn;
 
 @Entity
+@Table
 public class Utilisateur implements Serializable {
 	/**
 	 * 
